@@ -1,0 +1,14 @@
+INICIO
+	VARIAVEIS
+		NUMEROS <-[A,B,C]			
+			imprimaNumeroA <- 10;
+			imprimaNumeroB <- 20;
+			imprimaNumeroC <- 30;
+		Variavel A <- Variavel B
+		Variavel B <- Variavel C
+		Variavel C <- Variavel A
+			imprimaNumeroA <- 20;
+			imprimaNumeroB <- 30;
+			imprimaNumeroC <- 10;			 
+	
+FIM
