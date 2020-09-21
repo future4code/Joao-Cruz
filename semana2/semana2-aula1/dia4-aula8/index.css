@@ -51,13 +51,19 @@ div img {
 }
 
 .container {
-    height: 500px;
+    height: 300px;
     text-align: center;
+    padding: 90px;   }
+li{
+    list-style: none;
 }
 
 .icone {
     height: 15px;
+    
 }
+
+
 
 
 /** 
@@ -69,6 +75,8 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    
+    
 }
 
 #container-de-descricao>ol {
@@ -99,7 +107,7 @@ div:last-child {
 
 table {
     
-    padding: 50px 100px;
+    padding: 0px 100px;
     text-align: center;
     width: 1024px;
     margin: auto;
