@@ -1,0 +1,291 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+      
+}
+
+#vremeio {
+    background-color: red;
+    padding: 40px;
+}
+
+
+
+#last {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 12rem; }
+
+
+.azul {
+    background-color: blue;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.amarelo {
+    background-color: yellow;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.verde {
+    background-color: green;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.preto {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.branco {
+    background-color: white;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 10rem;
+    }
+
+#second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 10rem;
+    }
+
+#thrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 20rem;
+}
+
+
+@media screen and (min-device-width : 500px) and (max-device-width : 1000px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    div {
+        border: 1px solid black;
+    }
+
+    #first-block {
+        background-color: red;
+        padding: 3rem;
+
+    }
+
+
+
+
+    .azul {
+        background-color: blue;
+        margin: 10px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 100px;
+
+
+
+    }
+
+    .amarelo {
+        background-color: yellow;
+        margin: 10px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 100px;
+
+
+    }
+
+    .verde {
+        background-color: green;
+        margin: 10px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 100px;
+
+    }
+
+    .preto {
+        background-color:black;
+        color: white;
+        margin: 10px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .branco {
+        background-color: white;
+        margin: 10px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 100px;
+
+    }
+        #first {
+        display: flex;
+        flex-wrap: wrap;
+        height: 250px;
+
+
+        }
+
+    #second {
+        display: flex;
+        flex-wrap: wrap;
+        height: 250px;
+        }
+
+    #third {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 20rem;
+    }
+
+    #last {
+        display: flex;
+        flex-wrap: wrap;
+        height: 250px; }
+
+ 
+
+
+
+@media screen and (min-device-width : 200px) and (max-device-width : 499px) {
+  
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#first-block {
+    background-color: red;
+    padding: 3rem;
+}
+
+
+
+
+.azul {
+    background-color: blue;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.amarelo {
+    background-color: yellow;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.verde {
+    background-color: green;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.preto {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.branco {
+    background-color: white;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+    #first {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 20rem;
+    }
+
+#second {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 20rem;
+    }
+
+#thrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 15rem;
+}
+
+#last {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 20rem; }
+} 
