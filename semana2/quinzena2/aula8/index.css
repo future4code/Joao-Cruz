@@ -1,85 +1,73 @@
-body{
-    font-family: sans-serif;
-       width: 100vw;
-    height: 100vh;
-    padding: 0;
+body, ul, li, p{
     margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
 }
-header{
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+h1{
+    text-align:center;
+    margin-top: 100px;
+}
+img{
+    max-width: 100%;
+    display:block;
+    height: 250px;
+    width: 300px;
+}
+.header {
     background: #1d1e20;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu{
+    display: flex;  
+}
+.menu li{
+    margin-left: 10px;  
+   
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    background: tomato;
+}
+
+li{
+    color: antiquewhite;
+}  
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}    
+.flex > div{
+    flex: 1 1 200px;
+    margin:  10px;
+}
+
+
+footer{
+        background: #1d1e20;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-p{
-    color: antiquewhite;
-}
-div
-{border: 1px solid black;}
-.v1{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
+footer p {
+    color: white;
 }
 
-.v2{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-.v3{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-.v4{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-.v5{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-.v6{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-.v7{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-.v8{
-        background-color: none;
-    margin: 10px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-
-}
