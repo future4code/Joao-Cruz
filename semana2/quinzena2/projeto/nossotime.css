@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    width: 1000px;
+margin:20px auto;
+    }
+#btn-menu{
+    display: none;
+}
+header{
+    background-color:#2f2f2f;
+}
+header label{
+    color:#efefef;
+    font-size: 25px;
+    display: block;
+    padding: 5px 10px;
+    width: 20px;
+    border-right: 1px solid #efefef;
+   display: none;
+    
+}
+header label:hover{
+    background-color: #ff5900;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: all .5s;
+    
+}
+
+.menu li a{
+    color: #efefef;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    border-right: 1px solid #efefef;
+    
+}
+.menu li a:hover{
+    background-color: #ff5900;
+}
+    .portifolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+.portifolio h1{
+    font-size: 36px;
+    color:#252525;
+}
+.portifolio p{
+    font-size:16px ;
+    line-height: 32px;
+    color: #555;}
+
+.gallery{
+    color:#555;
+    padding: 0 100px 50px 100px;
+    overflow: ;
+}
+.gallery-card{
+    width: 32%;
+    float: right;
+    text-align: center;
+    
+    
+}
+.gallery-title{
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+footer li{ 
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px 0 0;
+    padding: 14px
+}
+
+          svg{
+            display: inline-block;
+            font-size: inherit;
+            height:2em;
+            overflow: visible;
+            vertical-align: -.125em;
+              
+        }   
+
+
+
+@media (max-width: 768px){
+    
+    header label{
+        display: block;
+    }
+    .menu ul{
+        position: absolute;
+        background-color: #2f2f2f;
+        width: 70%;
+        flex-direction: column;
+        margin-left: -70%;
+    }
+    .menu li a{
+        border-top: 1px solid #efefef;
+        font-style: none;
+    }
+    #btn-menu:checked ~ .menu ul{
+        margin-left: 0;
+    }
+}
