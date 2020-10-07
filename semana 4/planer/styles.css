@@ -1,0 +1,15 @@
+<style>
+#dfPessoas {
+    font: 14px Verdana;
+    margin-left: 35%;
+    margin-top: 150px;
+}
+#dtPessoas {
+    font: 14px Verdana;
+    margin-left: 25%;
+    
+}
+table tr td{
+    width: 140px;
+}
+</style>
