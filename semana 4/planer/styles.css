@@ -1,15 +1,24 @@
-<style>
-#dfPessoas {
-    font: 14px Verdana;
-    margin-left: 35%;
-    margin-top: 150px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#dtPessoas {
-    font: 14px Verdana;
-    margin-left: 25%;
-    
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-table tr td{
-    width: 140px;
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
 }
-</style>
+
+.semana {
+    border: 1px dotted rgb(53, 53, 53);
+    width: 14%;
+    padding: 5px;
+}
