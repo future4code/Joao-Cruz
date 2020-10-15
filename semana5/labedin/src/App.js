@@ -2,6 +2,11 @@ import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
+import Perfil from'./img/jvcimg.jpg';
+import Exp from'./img/ExpediaGroup.jpg';
+import music from './img/gibson.jpg';
+import { Cardcontato } from './components/Cardcontato/Cardcontato';
+
 
 function App() {
   return (
@@ -9,9 +14,9 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
-          nome="Astrodev" 
-          descricao="Oi, eu sou o Astrodev. Sou o chefe dos alunos da Labenu. Adoro pedir e-mails na sexta-feira e esperar os alunos responderem só para responder com uma bronca e dar mais trabalho para eles."
+          imagem src = {Perfil} 
+          nome="João Vitor da Cruz" 
+          descricao="Pessoa maravilhosa, que se apaixonou pelo processo de estudar um tema quase que o dia inteiro, e so conseguir entregar o projeto a noite (mas e so agora no começo)"
         />
         
         <ImagemButton 
@@ -19,19 +24,28 @@ function App() {
           texto="Ver mais"
         />
       </div>
+      <div className="page-section-container">
+        <h2>Endereço / Contato</h2>
+        <Cardcontato
+          icoEmail={`https://lh3.googleusercontent.com/proxy/bkNfgbQxeDF0NC3pJ9LhfDOks4IzRRvygilOsVNbbjXi_Jv76GkD1aXSQsCWwlZg83ZFhX1j6vwtuJZjsOtYgDj5zy1YMiEzXD1NcWlQPqR91BASRYg`}
+          email={`sojohhny@gmail.com`}
+          icoEndereco={`https://i.pinimg.com/736x/ba/67/c4/ba67c44d437af206e48a7f9f8048b870.jpg`}
+          endereco={`Loonge`}
+        />
+      </div>
 
       <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
-          imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
-          nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          img src={Exp} 
+          nome="Expedia Group/Tengroup" 
+          descricao="Concierge, Retenção de seguros, Gestor de reservas Agente de Viagm, mas tudo isso ficou no pasado, atualmente Desenvvolvedor Front End e futuro Full Stack" 
         />
         
         <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem src= {music}
+          nome="Musico" 
+          descricao="Já fui músico também, e já lecionei violão e guitarra." 
         />
       </div>
 
