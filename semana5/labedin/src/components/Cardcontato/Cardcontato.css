@@ -1,0 +1,18 @@
+.Cardcontato-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+.Cardcontato-container img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.Cardcontato-container  h4 {
+ margin-right: 10px;
+ font-weight: bold;
+}
