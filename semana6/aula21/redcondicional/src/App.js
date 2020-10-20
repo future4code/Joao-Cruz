@@ -19,7 +19,7 @@ const AppContainer = styled.div`
   color: black;
  
 `
-const Titulo = styled.h1`
+const title = styled.h1`
   color: black;
   background: white;
   margin-top: 15px;
@@ -90,7 +90,7 @@ class App extends React.Component {
     };
     return (
       <AppContainer>
-        <Titulo>Labenu Forms</Titulo>
+        <title>Labenu Forms</title>
         {etapa}
         {botao}
       </AppContainer>
