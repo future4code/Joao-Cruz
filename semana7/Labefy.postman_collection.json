@@ -1,0 +1,153 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Labefy",
+		"_postman_id": "0e374e69-775f-8f6b-e98b-9039f31f71e0",
+		"description": "Atividade",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreatPlaylist",
+			"request": {
+				"url": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists\n",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Joao-Cruz-Dumont",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"vaiDarbom2\"\n}"
+				},
+				"description": "Cria playlist"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPlaylist",
+			"request": {
+				"url": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists\n",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Joao-Cruz-Dumont",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "addTrackToPlaylist",
+			"request": {
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"query": [],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "93cbc241-7791-4123-8a08-b2c5c5407dc4"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Joao-Cruz-Dumont",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"One Two\", \r\n    \"artist\": \"Sistr Nancy\",\r\n    \"url\": \"https://www.youtube.com/watch?v=RjaY1uCQjzk\"\r\n}"
+				},
+				"description": "Adicionar"
+			},
+			"response": []
+		},
+		{
+			"name": "playlistTracks",
+			"request": {
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"query": [],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "93cbc241-7791-4123-8a08-b2c5c5407dc4"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Joao-Cruz-Dumont",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "removeTrackFromPlaylist",
+			"request": {
+				"url": "",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
